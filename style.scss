@@ -1,0 +1,66 @@
+body {
+  display: flex;
+  // flex: 1 1 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  height: 90vh;
+}
+
+img {
+  width: 50px;
+  height: auto;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  text-align: center;
+}
+
+#banner {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  // border: solid;
+  color: #000;
+  margin: 10px;
+  // height: 20vh;
+  box-shadow: 0 0 20px 1px #00000047;
+  border-radius: 10px;
+  padding: 1em;
+}
+
+#infinite-track {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 50vh;
+  width: 40em;
+  position: relative;
+  img {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    // border: solid;
+    // box-shadow: 0 0 20px 1px #00000047;
+    offset-path: path(
+      "M293.703 167.022C247.143 -41.8461 59.7649 -39.5758 -22 167.022C7.52622 429.242 224.101 337.295 293.703 167.022ZM293.703 167.022C460.64 459.891 606 281.672 606 167.022C606 62.3844 422.236 -147.415 293.703 167.022Z"
+    );
+    animation: move 5s ease-in-out infinite;
+  }
+}
+
+@keyframes move {
+  100% {
+    motion-offset: 100%;
+    offset-distance: 100%;
+  }
+}
