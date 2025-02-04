@@ -107,10 +107,12 @@
   },
   {
     "date": "Monday",
-    "link": "https://teams.microsoft.com/l/meetup-join/19%3a57012e9be0494beeaf91696bf2879cec%40thread.tacv2/1736932013978?context=%7b%22Tid%22%3a%225b679921-53f7-4642-a251-8a603608d21c%22%2c%22Oid%22%3a%22680ae30e-651a-472f-9574-48a2d2b368a6%22%7d"
+    "link": "https://teams.microsoft.com/l/meetup-join/19%3a57012e9be0494beeaf91696bf2879cec%40thread.tacv2/1736932013978?context=%7b%22Tid%22%3a%225b679921-53f7-4642-a251-8a603608d21c%22%2c%22Oid%22%3a%22680ae30e-651a-472f-9574-48a2d2b368a6%22%7d",
+    "isRemote":true
   },
   {
     "date": "Tuesday",
-    "link": "https://teams.microsoft.com/l/meetup-join/19%3a57012e9be0494beeaf91696bf2879cec%40thread.tacv2/1736932099637?context=%7b%22Tid%22%3a%225b679921-53f7-4642-a251-8a603608d21c%22%2c%22Oid%22%3a%22680ae30e-651a-472f-9574-48a2d2b368a6%22%7d"
+    "link": "https://teams.microsoft.com/l/meetup-join/19%3a57012e9be0494beeaf91696bf2879cec%40thread.tacv2/1736932099637?context=%7b%22Tid%22%3a%225b679921-53f7-4642-a251-8a603608d21c%22%2c%22Oid%22%3a%22680ae30e-651a-472f-9574-48a2d2b368a6%22%7d",
+    "isRemote":true
   }
 ]
