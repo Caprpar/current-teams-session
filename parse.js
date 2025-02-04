@@ -16,6 +16,7 @@ let dateElement = document.querySelector("#date > h1");
 // isNoon = false;
 
 document.querySelector("#dateEl").textContent = today;
+const lesson = document.querySelector("#lesson");
 
 fetch("api.json")
   .then((response) => response.json())
@@ -29,13 +30,16 @@ fetch("api.json")
       if (weekday === day.date && !isNoon) {
         hrefElement.href = day.link;
         console.log("Måndag");
+        lesson.textContent = "Vue ramverk";
         break;
       } else if (weekday === day.date) {
         hrefElement.href = day.link;
+        lesson.textContent = "Agil utveckling";
         console.log("Tisdag");
         break;
       } else if (day.date === today) {
         hrefElement.href = day.link;
+        lesson.textContent = "Vue ramverk";
         break;
       }
     }
